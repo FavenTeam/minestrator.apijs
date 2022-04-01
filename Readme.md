@@ -4,12 +4,12 @@
 Resquest Module
 # **Installation**
 ```
-npm install minestrator.apijs
+npm install minestratorapi.js
 ```
 # **Example usage**
 Simple example for retrieve the list of services
 ```js
-const MineStratorAPI = require('minestrator.apijs')
+const MineStratorAPI = require('minestratorapi.js')
 const server = new MineStratorAPI('API Key');
 
 server.getServerList().then(res => console.log(res.data));
