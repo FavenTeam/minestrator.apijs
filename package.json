@@ -1,0 +1,24 @@
+{
+  "name": "minestrator.apijs",
+  "version": "1.0.0",
+  "description": "Simple Api MineStrator (Unofficial)",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "minestrator"
+  ],
+  "author": "Lorenzo'Faven",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FavenTeam/minestrator.apijs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FavenTeam/minestrator.apijs/issues"
+  },
+  "homepage": "https://github.com/FavenTeam/minestrator.apijs#readme"
+}
