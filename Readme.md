@@ -33,7 +33,7 @@ server.getServerList().then(res => console.log(res.data));
 # **Methods + Output**
 ***then(res => console.log(res.data))***
 > getServerList()
-```json
+```
 [
   {
     hashsupport: 'XXXXX',
@@ -49,7 +49,7 @@ server.getServerList().then(res => console.log(res.data));
 ]
 ```
 > getServerInfo(hashsupport)
-```json
+```
 [
   {
     hashsupport: 'XXXXX',
@@ -72,7 +72,7 @@ server.getServerList().then(res => console.log(res.data));
 ]
 ```
 > getServerState(hashsupport)
-```json
+```
 [
   {
     uuid_short_pt: 'xxx9xxx1',    
@@ -87,7 +87,7 @@ server.getServerList().then(res => console.log(res.data));
 ]
 ```
 > getServerContent(hashsupport)
-```json
+```
 [
   {
     hashsupport: 'XXXXX',
@@ -103,7 +103,7 @@ server.getServerList().then(res => console.log(res.data));
 > setServerPower(hashsupport, action) 
 
 ⚠ *Action: start | stop | restart | kill* 
-```json
+```
 start
 { message: 'Starting server XXXXX.' }
 
@@ -118,3 +118,4 @@ kill
 ```
 # **Credits**
 [Axios](https://www.npmjs.com/package/axios)
+[MineStrator](https://minestrator.com/)
